@@ -41,12 +41,27 @@ h2 {
 }
 
 #join-us {
+	width: 100%;
 	padding: 2.5rem 0 3rem;
+	box-sizing: border-box;
 }
 
 #join-us > div {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 0 20px;
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
+}
+
+#join-us .tf-v1-widget {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+#join-us iframe {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: block;
+	border: 0;
 }
